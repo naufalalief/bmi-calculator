@@ -18,23 +18,23 @@ function calculateBMI() {
 
     if (gender === "male") {
       if (bmi < 18.5) {
-        statusResult.textContent = "Underweight";
+        statusResult.textContent = "Kekurangan berat badan";
       } else if (bmi >= 18.5 && bmi < 25) {
-        statusResult.textContent = "Normal";
+        statusResult.textContent = "Berat badan kamu normal";
       } else if (bmi >= 25 && bmi < 30) {
-        statusResult.textContent = "Overweight";
+        statusResult.textContent = "Berat badan kamu berlebihan";
       } else {
-        statusResult.textContent = "Obese";
+        statusResult.textContent = "Kamu kegemukan, perbanyak olah raga";
       }
     } else if (gender === "female") {
       if (bmi < 18.5) {
-        statusResult.textContent = "Underweight";
+        statusResult.textContent = "Kekurangan berat badan";
       } else if (bmi >= 18.5 && bmi < 24) {
-        statusResult.textContent = "Normal";
+        statusResult.textContent = "Berat badan kamu normal";
       } else if (bmi >= 24 && bmi < 30) {
-        statusResult.textContent = "Overweight";
+        statusResult.textContent = "Berat badan kamu berlebihan";
       } else {
-        statusResult.textContent = "Obese";
+        statusResult.textContent = "Kamu kegemukan, perbanyak olah raga";
       }
     }
 
