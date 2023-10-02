@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BMI Calculator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>BMI Calculator</h1>
+        <form>
+          <div class="input-group">
+            <div class="form-input col">
+              <label for="weight">Berat Badan (kg)</label>
+              <input
+                type="number"
+                id="weight"
+                name="weight"
+                class="input"
+                required
+              />
+            </div>
+            <div class="form-input col">
+              <label for="height">Tinggi Badan (cm)</label>
+              <input
+                type="number"
+                id="height"
+                name="height"
+                class="input"
+                required
+              />
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="form-input row">
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                class="input"
+                required
+              />
+              <label for="male">Laki-laki</label>
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                class="input"
+                required
+              />
+              <label for="female">Perempuan</label>
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                class="input"
+                required
+              />
+              <label for="female">Alien</label>
+            </div>
+          </div>
+        </form>
+        <div class="result">
+          <h2>BMI Result</h2>
+          <p>Your BMI is <span id="bmi"></span></p>
+          <p>You are <span id="status"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>&copy; 2023 Naufal Alief.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</html>
